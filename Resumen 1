@@ -1,0 +1,48 @@
+---
+title: "Resumen"
+author: "Leticia Magali Cruz Ramírez"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# POBLACIÓN Y DEMOGRAFÍA
+## Algunas definiciones.
+**Demografía:** Del griego (_demosgrafia_). Es el estudio de la población.   
+**Población:** Se entiende como un conjunto de individuos, constituidos de forma estable, ligado por vínculos de reproducción e identificado por características territoriales, póliticas, júridicas, éticas o religiosas, las cuales trazan su límite. Una poblacion tiende a perpetuarse y a permanecer en el tiempo, pero ello no significa que se eterna, estas se forman y se extinguen.  
+Una población se forma escencialmente por las migraciones asociadas con adecuadas capacidades reproductivas. Y se extinguen porque la natalidad es insuficiene para compensar la mortalidad.  
+Las combinaciones de fecundidad, mortalidad y movilidad determinan la variación numérica de una población.
+
+## Componentes básicos de una población y de su estructura.
+Toda población está compuesta por unidades basicas - los individus vivos en un cierto momento - y por elementos compuestos - la pareja, el nucleo familiar, la comunidad, etc.  
+Las **unidades básicas** se pueden clasificar por innumerables características como lo son: biometría, medicina, economía, etc. Las cuales ayudan a construir un perfil individual útil para interpretar y entender los fenómenos relacionados con la fecundidad, la mortalidad y la movilidad.  
+
+## Procesos de cohesión y de agregación en una población. 
+Las poblaciones no son meras sumas de individuos, ya que en su formación interviene procesos de cohesión que agregan a los individuos en parejas, familias, comunidades o grupos de complejidad y dimension superiores, los cuales se forman por nupcialidd, fecundidad y movilidad y se deshacen por la intervención de sus contrarios: disolución del matrimonio, muerte o movilidad de signo contrario. Lo cual crea posibles combinaciones de las fuerzas de cohesión y de sus contrarias determinando los infinitos ordenamientos estructurales posibles de las poblaciones en parejas, familias y comunidades lo cual tambien es objeto de estudio de la demografía.   
+
+## Lo biológico y lo social, o las dos almas de la demografía.
+Se ha dicho que la demografía tiene dos almas; una ligada a lo biológico, la otra a lo social. Por el lado de lo biologico relacionado a los procesos de fecundidad y mortalidad.  
+Por su parte la mortalidad ligada a la edad y el sexo, aspectos los cuales estan ligados a diversas condiciones las cuales pueden ser: la alimentación, la tecnología, higiene, entorno, etc.  
+A su vez, la fecundidad se verá influido por factores culturales y religiosos, por el conocimiento de anticoncetivos y accesibilidad.  
+
+# FUENTES, ESTADÍSTICAS Y ERORES
+## La demografía y sus métodos.
+Se entiende por fuentes el instrumento institucional u organizativo mediante el cual se recogen los datos de interés demográfico. La naturaleza de los datos, en cambio, se refieren a la unidad objeto de la recogida de datos, las caracteristias descritas, su elaboración y presentación. La fiabilidad y los errores se refieren a la correspondencia entre el dato estadistico y la realidad que debes describir.  
+
+## Las fuentes de datos de stock: los censos.
+El tamaño de una población y de sus caracterísicas se obtienen normalmente con una operación llamada _censo_. El censo debe de cumplir las siguientes características:  
+1. Tiene que ser una operación de contabilización **individual**.  
+2. Debe de ser **universal**.  
+3. Debe ser **simultaneo**.  
+4. Los censos deben de tener una **periodicidad** definida, normalmente son 10 años. 
+
+## Naturaleza de los datos. 
+**Unidad de recogida:** La entidad que define el objeto de la recogida de datos, es normalmente la familia.  
+**Familia:** El grupo de personas (dos o más) que, residiendo en la misma vivienda familiar, comparten algunos gastos en común y estan vinculados por lazos de parentesco, ya sean de sangre o póliticos independientemente de su grado.  
+**Hogar:** El conjunto de personas que, residiendo en la misma vivienda, compaten gastos comunes ocasionados por el uso de la vivienda y/o gastos de alimentación. Se pueden distinguir dos tipos de hogares: los **unipersonales**, formados por una sola persona, y los **multipersonales**, que estan formados por dos o más personas.
+**Cuestionario censal:** Es el instrumento de recogida, que contiene las informaciones para cada uno de los miembros de la familia, ademas de algunas características de la vivienda
+
+## Validez y errores de los datos censales.
+El hecho de que los resultados del censo aadquiera validez oficial no es suficiente garantía de su exactitud.
+
