@@ -1,0 +1,36 @@
+---
+title: "Ecuación compensadora"
+output: pdf_document
+date: '2022-03-22'
+---
+La ecuación compensadora es uno de los principales elementos de la demografía y se plantea de la siguiente manera:  
+$$P_{t+n}=P_t + N_{t+n} - D_{t a t+n} + I_{tat+n} - E_{t a t+n}$$
+Donde:  
+_N_=Nacimientos  
+_D_=Defunciones  
+_I_=Inmigrantes  
+_E_=Emigrantes  
+
+**Ejemplo:** $P_{2022}=P_{2021}+N_{2021-2022}-D_{2021-2022}+I_{2021-2022}-E_{2021-2022}$ 
+$$P_{t+n}-P_t = (N_{t+n} - D_{t a t+n}) + (I_{tat+n} - E_{t a t+n})$$
+$$CP=CN+CS$$
+Donde:  
+_CP_=Crecimiento Poblacional  
+_CN_=Crecimiento Natural  
+_CS_=Crecimiento social  
+
+**Ejemplo**  
+$P_{2004}=243,657,000$  
+$P_{2005}=296,410,000$   
+$N_{2004-2005}=4,129,000$  
+$D_{2004-2005}=2,425,000$  
+$I_{2004-2005}=1,122,000$  
+$E_{2004-2005}=73,000$  
+
+$(296,410,000-243,657,000)=(4,129,000-2,425,000)+(1,122,000-73,000)$
+
+$CP=2,753,000$  
+$CN=1,704,000$  
+$CS=1,044,000$  
+
+$$P_{t+n}=P_t + N_{t+n} - D_{t a t+n} + I_{tat+n} - E_{t a t+n}$$
