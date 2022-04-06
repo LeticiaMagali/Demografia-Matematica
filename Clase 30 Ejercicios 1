@@ -1,0 +1,39 @@
+---
+title: "Clase 30 Ejercicios"
+output: pdf_document
+date: '2022-03-30'
+---
+
+
+
+HIDALGO   
+Poblacion 2020 = 3,082,841  
+Nacimientos 2020 = 32,506  
+Muertes 2020 = 16,414  
+Inmigrantes 2020 = 172,723  
+Emigrantes 2020 = 84,358  
+
+
+$TBN_{2020} = \frac{32506}{3082841} = 0.01054417$  
+$TBM_{2020} = \frac{16414}{3082841} = 0.00532431$  
+$TBI_{2020} = \frac{172723}{308284} =  0.05602722$  
+$TBE_{2020} = \frac{84358}{3082841} = 0.02736372$  
+
+La proporcion de sexos al nacimiento se define de la siguiente manera:   
+$$PSN = \frac{nac_{h}}{nac_{m}}$$
+$PSN = \frac{828,944}{800,264} = 1.035838 = 103.5838$    
+En Mexico en el año 2020 nacen 103 niños por cada 100 niñas     
+
+
+Proporcion de niños por mujeres   
+$$PNM=\frac{POB_{<5años}}{POB_{Fem}}$$  
+$POB_{<5años}=2827377$    
+$POBFEM_{15-44}=23855033$    
+$PNM=\frac{2827377}{23855033}= 0.1185233$    
+
+
+TASA DE DEPENDENCIA   
+La tasa de dependencia se relaciona a las personas que tienen mas posibilidades de ser dependientes  
+
+$$TD=\frac{(Pob_{0-14} + Pob_{65+})}{Pob_{15-64}}$$
+
