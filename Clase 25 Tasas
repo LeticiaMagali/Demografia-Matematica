@@ -1,0 +1,93 @@
+---
+title: "Clase 25"
+output: pdf_document
+date: '2022-03-25'
+---
+TIEMPO DE DUPLICIDAD DE UNA POBLACION   
+Lo que se intenta plantear a conocer es en que tiempo una poblacion determinada se duplica, para lo anterior se plantea la siguiente ecuacion que esta basada en la tasa de crecimiento exponencial 
+$$P_{t+n}=P_{t} * e^{(r*n)} $$ 
+Donde:  
+${P_t}$=poblacion inicial   
+${P_t+n}$=poblacion final   
+$r$=tasa de crecimiento exponencial   
+$n$=tiempo  
+  
+Para conocer cuando se duplica la poblacion necesitamos despejar a n, porque queremos conocer cuantos años se tardaria una poblacion determinada en duplicarse   
+  $\frac{P_{t+n}}{P_{t}}=e^{(r*n)}$  
+  $\frac{P_{t+n}}{P_{t}}=2$  
+  $2=e^{(r*n)}$    
+  $r=0.1399829$
+  $In(2)=r*n$
+  $0.6931=0.1399829*n$  
+  $n=\frac{0.6931}{0.1399829}$  
+  $n=\frac{69.33}{1.399829}$  
+  $n=49.51319$    
+Si tenemos una tasa de crecimiento exponencial de 1.399829 entonces el tiempo de duplicacion de nuestra poblacion sera de 49.51 años.
+
+_Ejercicio_   
+Queremos conocer en que tiempo se va a duplicar la poblacion con la tasa de crecimiento del año 1970...sabemos que la tasa de crecimiento era del 3.1. Tenemos que en 1970 50.6 millones de personas.  
+¿En cuanto tiempo en Mexico tendriamos 100 millones de personas, con una tasa de crecimiento del 3.1?  
+**R=22.29 AÑOS**   
+En el año 2000 la tasa de crecimiento era de 1.4, en Mexico habia en el año 2000 99 millones, calcular ¿En cuanto tiempo en Mexico tendriamos 198 millones de personas con una tasa de crecimiento de 3.1?  
+**R=49.51**
+
+
+DINAMICA DEMOGRAFICA  
+En la dinamica demografica se relaciona con el tamaño, la composicion, las perdidas y las ganancias de la poblacion.   
+  El tamaño se refiere a la cantidad de personas que existen en un territorio en un tiempo determinado.  
+  La composicion de una poblacion se refiere al sexo, grupos de edad, es decir las caracteristicas de la poblacion.  
+  Las perdidas y ganancias se vinculan con la fecundidad, mortalidad (perdida) y la migracion.  
+  
+  
+TASAS BRUTAS EN LA POBLACION   
+Una tasa bruta, como su nombre lo indica y no considera la composicion de la poblacion (es decir, no considera sexo, edad, matrimonios)   
+  La vamos a definir de la siguiente manera:   
+                 $$TB= \frac{Evento}{Poblacion media}$$
+
+La **poblacion media** se define como el promedio de poblacion durante algun periodo de tiempo    
+La **poblacion a mitad de año**, normalmente se relaciona con los datos del censo y se asocia a conocer la poblacion a mitad de año (30 de junio).   
+Tenemos la poblacion del año 2004 es de 293657000 y la poblacion del año 2005 296410000, entonces la poblacion media del año 2004-2005 es la siguiente: $Pmed=\frac{(293657000+296410000)}{2}=295033500$
+
+_Ejercicio_
+Calcular tasas brutas de los siguientes eventos:   
+Tasas brutas de los estados unidos del 2004 al 2005   
+Eventos   
+Nacimientos: 4129000  
+Muertes:2425000  
+Inmigracion: 1122000  
+Emigraciones:73000  
+
+**TBN=0.01399502(1000)** ---POR CADA 1000 PERSONAS EN EU NACEN 14   
+**TBM=0.008219(1000)**---POR CADA 1000 PERSONAS EN EU MUEREN 8.2  
+**TBI=0.00380(1000)**----POR CADA 1000 PERSONAS 4 SON INMIGRANTES  
+**TBE=0.000247(100000)**----- POR CADA 100,000 PERSONAS EN EU EMIGRAN 24   
+
+
+TASAS ESPECIFICAS   
+Estas tasas si tienen relacion con las caracteristicas poblacionales (sexo, grupos de edad)  
+El planteamiento de las tasas especificas es el siguiente:   
+
+$$Te^{i}=\frac{E^{i}}{Pob^{i}}$$
+Donde:  
+$Te^{i}=$tasa especifica de un evento con la caracteristica i(15-19)  
+$E^{i}=$es el numero del evento caractristica i(15-19)  
+$Pob^{i}=$es la poblacion media con caracteristica i(15-19)  
+
+
+PROPORCION DE SEXOS   
+Este es otro indicador demografico que permite conocer la cantidad de hombres que existe con relacion a las mujeres 
+La proporcion de sexos es un indicador que muestra el balance entre el numero de hombres, por ejemplo, se puede calcular la proporcion masculina y se calcula dividiendo el numero de hombres entre el numero de mujeres. Se define de la siguiente manera:   
+ $$PS^{i}=\frac{Hombres^{i}}{Mujeres^{i}}$$
+
+Hombres (0 a 4 años) en el 2008= 8226630 -----BRAZIL  
+Mujeres  (0 a 4 años) en el 2008= 7976611  
+
+Hombres (0 a 4 años) en el 2008= 1453690 -----ITALIA  
+Mujeres (0 a 4 años) en el 2008= 1373687  
+
+$$PS^{(0-4años)}= \frac{8226630}{7976611} = 1.031344(100)=103$$  
+En Brazil en el grupo de edad de 0 a 4 años hay 103 hombres por 100 mujeres 
+$$PS^{(0-4años)}= \frac{1453690}{1373687} = 1.05824(100)=105$$
+En Italia en el grupo de edad de 0 a 4 años hay 105 hombres por 100 mujeres 
+
+
