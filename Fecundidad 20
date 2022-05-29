@@ -1,0 +1,82 @@
+---
+title: "Clase 20 Fecundidad"
+output: pdf_document
+date: '2022-04-20'
+---
+
+En la demografía existen 2 conceptos que es necesario identificar 
+Fecundidad se refiere al numero de hijos que tienen las mujeres. Fecundidad se refiere a la capacidad biológica de la mujer de tener hijos.   
+Factores que impactan en la fecundidad de las mujeres:  
+•	Economía   
+•	Estado civil   
+•	Educación   
+•	Cultura   
+•	Familia   
+•	Mortalidad   
+•	Acceso a anticonceptivos  
+•	Politicas gubernamentales  
+• Fertilidad  
+
+**Tasa bruta de natalidad**
+$$TBN=\frac{Nacimientos}{Poblaciones}$$
+Normalmente esta TBN se utiliza de manera anual y se interpreta en miles de personas.
+
+_Ejemplo:_   
+Nacimientos= 470900    
+Poblacion= 27720000  
+$$TBN=\frac{470900}{27720000}=0.017$$
+**Interpretación:** La TBN tambien se puiede iterpretar multiplicandola por 1000, es decir, que en esta poblacion nacen  17 niños cada mil personas. 
+
+ TAREA ¿Cuantos hijos puede tener una mujer durante su periodo de fertilidad? Supongamos que inicia \a los 15 y termina a los 45.
+ 
+ 
+ TASAS ESPECIFICAS DE FECUNDIDAD Y GENERALES DE FECUNDIDAD
+ 
+ Tasa especifica de fecundidad se define de la siguiente manera:  
+ $$Tef=\frac{Nacimiento^{i}}{Pob^{i}femenina}$$  
+ _Ejemplo:_  
+ 
+
+ Tasa general de fecundidad se define de la siguiente manera:  
+ $$TGF=\frac{\sum_{i=15}^{44}Nacimientos^{i}}{\sum_{i=15}^{44}Pob Femenina^{i}}$$
+ _Ejemplo:_  
+ $$TGP=\frac{1070035}{23371000}=0.04578$$
+ 45.78 nacimientos por cada mil mujeres en edad de 15 a 44 años 
+ 
+ EJERCICIO: Calcular la Tef y TGN para Mexico en el año 2010 
+ 
+ 
+ MEDIDAS SINTETICAS DE LA FECUNDIDAD 
+ Para planear estas medidas tenemos que partir de algunos supuestos:
+  1)El grupo poblacional esta cerrado a la migracion 
+  2)El grupo esta basado en solo un año, es decir, las tasas o medidas sinteticas que se planean solo se va a realizar para años en  especifico. 
+  3)Las mujeres no se mueren o no existe mortalidad femenina hasta que concluyan sus periodo fertil (45 años)
+  
+Las medidas sinteticas son las siguientes: 
+tasa general de fecundidad y se define de la siguiente manera: 
+$$TGrf=suma (tasas especificas de fecundidad)$$
+TEF ----- Tgrf =Suma (TEF)
+
+La siguiente medida es la tasa bruta de reproduccion: 
+y se define como $TBR=suma(TEF)*S$
+Donde: 
+TEF= Tasa especifica de fecundidad, 
+S= Probabilidad de sobrevivencia de las mujeres. 
+
+
+La ultima tasa es la tasa neta de reproduccion 
+y se define como la $TNR= suma(TEF) * S * PS$
+Donde: 
+TEF = tasa especifica de fecundidad
+S = Probabilidad de sobrevivencia de las mujeres. 
+PS = Es la probabilidad de una mujer de sobrevivencia de la edad cero hasta la edad de reproduccion 
+
+
+TASAS EN EDADES AGRUPADAS 
+$$TGrF=n*\frac{\sum_{i=15}^{44}Nacimientos^{i}}{\sum_{i=15}^{44}Pob Femenina^{i}}$$
+$$TGF=\sum_{i=15}^{44}Tef^{i}$$
+$$TBR=n*\sum_{i=15}^{44}Tef^{i}*S$$
+$$TNR=n*\sum_{i=15}^{44}Tef^{i}*S*PS$$
+
+
+
